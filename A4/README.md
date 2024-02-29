@@ -1,28 +1,28 @@
-## Neuroscience Homework 2
-This Jupyter Notebook contains the code and analysis for the first homework assignment in the Neuroscience, Learning, Memory, and Cognition course at Sharif University of Technology.
+## Neuroscience Homework 4
+This Jupyter Notebook contains the code and analysis for the forth homework assignment in the Neuroscience, Learning, Memory, and Cognition course at Sharif University of Technology.
 
-# Generalized Firing-Rate-Based Network Models 
-This homework assignment involves simulating a generalized firing-rate based neural network model using Python. The goals are:
+## Modeling Neurons
+This homework assignment involves modeling neurons using Python.
 
-- Define parameters for the network model including time constants, presynaptic firing rates, synaptic weights, etc.
+# Purpose
+The purpose of this assignment is to gain a basic understanding of how neurons encode sensory input through modeling them computationally. We will create a simple sinusoidal input and feed it to a spiking leaky integrate-and-fire (LIF) neuron model to observe its firing behavior.
 
-- Implement functions to solve the coupled differential equations describing the network dynamics.
+# Tasks
+The key tasks in this assignment are:
 
-- Plot the results to show how the postsynaptic neuron's firing rate evolves over time based on synaptic input from presynaptic neurons.
+- Import necessary Python packages for modeling and plotting
+- Create a sinusoidal input signal
+- Implement the LIF neuron model using Euler integration
+- Simulate the neuron model over time with the input
+- Plot the membrane potential and spikes over time
+- Analyze the firing behavior and relationship to input
 
-![plot](https://s8.uupload.ir/files/capture_pesm.jpg)
+--- 
 
+Some plots are shown in the following pictures:
 
-# Instructions
-- Import necessary packages like NumPy, SciPy, and Matplotlib.
+![plot](https://s8.uupload.ir/files/capture_nr70.jpg)
 
-- Define a function to set default parameter values that can be overridden. Parameters should include time constants, firing rates vector, weights matrix.
+![plot](https://s8.uupload.ir/files/capture_x8gr.jpg)
 
-- Implement functions to solve the differential equations numerically using odeint from SciPy. Returns should be synaptic input current and postsynaptic firing rate over time.
-
-- Generate a figure showing the time course of the postsynaptic neuron's firing rate.
-
-- Adjust any parameter values and observe how the dynamics change. Try different synaptic weights configurations.
-
-- Add additional analysis or plots as needed.
-
+![plot](https://s8.uupload.ir/files/capture_xk5x.jpg)
