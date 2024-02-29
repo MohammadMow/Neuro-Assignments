@@ -1,28 +1,37 @@
-## Neuroscience Homework 2
-This Jupyter Notebook contains the code and analysis for the first homework assignment in the Neuroscience, Learning, Memory, and Cognition course at Sharif University of Technology.
+## Neuroscience of Learning, Memory, Cognition
+# Course Overview
+This course provides an introduction to the neuroscience of learning, memory, and cognition. Some key topics that will be covered include:
 
-# Generalized Firing-Rate-Based Network Models 
-This homework assignment involves simulating a generalized firing-rate based neural network model using Python. The goals are:
+- Neuronal network models including feedforward and recurrent networks
+- Synaptic plasticity and different forms of neural learning
+- Encoding and decoding of information in neural spike patterns
+- Reinforcement learning and associative memory formation
+- Decision making models and relations to mind and consciousness
 
-- Define parameters for the network model including time constants, presynaptic firing rates, synaptic weights, etc.
+The course will take a computational and quantitative perspective. It will introduce mathematical and machine learning concepts that are useful for understanding neural data and building models of the brain.
 
-- Implement functions to solve the coupled differential equations describing the network dynamics.
+## Syllabus
+The course is divided into three parts:
 
-- Plot the results to show how the postsynaptic neuron's firing rate evolves over time based on synaptic input from presynaptic neurons.
+# Part I: Neuronal Networks
+- Neuron models - Integrate-and-fire, dynamic models
+- Network models - Feedforward, recurrent architectures
+- Synaptic plasticity and learning mechanisms
+# Part II: The Neural Code
+- Encoding of information in spike patterns
+- Decoding spike events to infer stimuli
+- Information theory concepts - Entropy, mutual information
+# Part III: Learning, Memory, Decision
+- Reinforcement learning - Actor-critic models
+- Associative memory - Formation and recall
+- Decision making models, relation to mind and consciousness
+# Math and Machine Learning Topics
+Concepts from fields like linear algebra, statistics, and machine learning that are relevant for computational neuroscience will be covered, including:
 
-![plot](https://s8.uupload.ir/files/capture_pesm.jpg)
+- Principal component analysis
+- Generative models
+- Bayesian inference
+- Reinforcement learning
+- Information theory concepts
 
-
-# Instructions
-- Import necessary packages like NumPy, SciPy, and Matplotlib.
-
-- Define a function to set default parameter values that can be overridden. Parameters should include time constants, firing rates vector, weights matrix.
-
-- Implement functions to solve the differential equations numerically using odeint from SciPy. Returns should be synaptic input current and postsynaptic firing rate over time.
-
-- Generate a figure showing the time course of the postsynaptic neuron's firing rate.
-
-- Adjust any parameter values and observe how the dynamics change. Try different synaptic weights configurations.
-
-- Add additional analysis or plots as needed.
-
+The goal is to equip students with the skills to understand and apply theoretical neuroscience as well as analyze and model real neural data.
