@@ -1,37 +1,28 @@
-## Neuroscience Homework 1
+## Neuroscience Homework 2
 This Jupyter Notebook contains the code and analysis for the first homework assignment in the Neuroscience, Learning, Memory, and Cognition course at Sharif University of Technology.
 
-# Overview
-The homework has two main parts:
+# Generalized Firing-Rate-Based Network Models 
+This homework assignment involves simulating a generalized firing-rate based neural network model using Python. The goals are:
 
-1. Python/Data Analysis Skills
-  - Practice basic Python coding and data analysis techniques commonly used in neuroscience.
+- Define parameters for the network model including time constants, presynaptic firing rates, synaptic weights, etc.
 
-2. Neuron Modeling 
-  - Get familiarized with common neuron models covered in the course through coding exercises.
+- Implement functions to solve the coupled differential equations describing the network dynamics.
 
-# Part 1 - Python/Data Analysis
-This section contains exercises to:
+- Plot the results to show how the postsynaptic neuron's firing rate evolves over time based on synaptic input from presynaptic neurons.
 
-- Describe the Fourier Transform and demonstrate its use for frequency analysis on sample time series data.
+![plot](https://s8.uupload.ir/files/capture_pesm.jpg)
 
-![Alt text](https://s8.uupload.ir/files/capture_tyof.jpg)
 
-- Generate and analyze simulated neuronal spike trains.
+# Instructions
+- Import necessary packages like NumPy, SciPy, and Matplotlib.
 
-- Other data processing and visualization tasks.
+- Define a function to set default parameter values that can be overridden. Parameters should include time constants, firing rates vector, weights matrix.
 
-![Alt text](https://s8.uupload.ir/files/capture_uv4w.jpg)
+- Implement functions to solve the differential equations numerically using odeint from SciPy. Returns should be synaptic input current and postsynaptic firing rate over time.
 
-# Part 2 - Neuron Modeling
-This section will guide students to:
+- Generate a figure showing the time course of the postsynaptic neuron's firing rate.
 
-- Implement simple integrate-and-fire and Hodgkin-Huxley type neuron models.
+- Adjust any parameter values and observe how the dynamics change. Try different synaptic weights configurations.
 
-![plot](https://s8.uupload.ir/files/capture_3xeb.jpg)
+- Add additional analysis or plots as needed.
 
-- Simulate the models under different input conditions.
-
-- Analyze the model outputs and compare behaviors.
-
-![plot](https://s8.uupload.ir/files/capture_cdkd.jpg)
