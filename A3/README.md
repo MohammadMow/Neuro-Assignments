@@ -1,28 +1,8 @@
-## Neuroscience Homework 2
+## Neuroscience Homework 3
 This Jupyter Notebook contains the code and analysis for the first homework assignment in the Neuroscience, Learning, Memory, and Cognition course at Sharif University of Technology.
 
-# Generalized Firing-Rate-Based Network Models 
-This homework assignment involves simulating a generalized firing-rate based neural network model using Python. The goals are:
+This assignment explores the FitzHugh-Nagumo neuronal model and its bifurcation behavior. It consists of six questions, each addressing specific aspects of the model and its dynamics. The questions cover variable and parameter descriptions, equilibrium points, stability analysis, branching behavior with varying input, the existence of limit cycles, and the effect of modifying one of the equations.
 
-- Define parameters for the network model including time constants, presynaptic firing rates, synaptic weights, etc.
+Additionally, the assignment delves into the Zin-Goh bifurcation in a first-order system, providing insights into the conditions for bifurcation.
 
-- Implement functions to solve the coupled differential equations describing the network dynamics.
-
-- Plot the results to show how the postsynaptic neuron's firing rate evolves over time based on synaptic input from presynaptic neurons.
-
-![plot](https://s8.uupload.ir/files/capture_pesm.jpg)
-
-
-# Instructions
-- Import necessary packages like NumPy, SciPy, and Matplotlib.
-
-- Define a function to set default parameter values that can be overridden. Parameters should include time constants, firing rates vector, weights matrix.
-
-- Implement functions to solve the differential equations numerically using odeint from SciPy. Returns should be synaptic input current and postsynaptic firing rate over time.
-
-- Generate a figure showing the time course of the postsynaptic neuron's firing rate.
-
-- Adjust any parameter values and observe how the dynamics change. Try different synaptic weights configurations.
-
-- Add additional analysis or plots as needed.
 
