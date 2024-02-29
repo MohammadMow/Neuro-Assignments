@@ -1,5 +1,5 @@
 ## Neuroscience Homework 2
-This Jupyter Notebook contains the code and analysis for the first homework assignment in the Neuroscience, Learning, Memory, and Cognition course at Sharif University of Technology.
+This Jupyter Notebook contains the code and analysis for the second homework assignment in the Neuroscience, Learning, Memory, and Cognition course at Sharif University of Technology.
 
 # Generalized Firing-Rate-Based Network Models 
 This homework assignment involves simulating a generalized firing-rate based neural network model using Python. The goals are:
